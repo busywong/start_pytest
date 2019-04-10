@@ -23,7 +23,7 @@ import pytest
 # def pytest_report_header(config):   # 向测试报告头添加信息
 # #     return "project deps: mylib-1.1"
 
-def pytest_report_header(config):
+def pytest_report_header(config):  # 向测试报告头添加信息2
     if config.getoption("verbose") > 0:
         return ["info1: did you know that ...", "did you?"]
 
@@ -31,7 +31,7 @@ def pytest_report_header(config):
 
 import pytest
 
-#根据命令行选项控制跳过测试
+#根据命令行选项控制跳过测试 增加命令选项  根据命令行选项控制跳过测试
 # def pytest_addoption(parser):
 #     parser.addoption(
 #         "--runslow", action="store_true", default=False, help="run slow tests"
@@ -67,7 +67,8 @@ import pytest
 import pytest
 import os.path
 
-# 实现后置处理
+
+# 实现后置处理， 这里处理了失败的用例， 写入一个文件中
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     # execute all other hooks to obtain the report object
