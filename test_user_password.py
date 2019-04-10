@@ -25,3 +25,7 @@ class TestUserPassword(object):
             assert passwd != 'password', msg
             assert passwd != 'password123', msg
 
+
+if __name__ == '__main__':
+    pytest.main(['test_user_password.py'])
+
