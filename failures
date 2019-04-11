@@ -1,0 +1,16 @@
+start_pytest/test_module.py::test_fail1 (C:\Users\wong\AppData\Local\Temp\pytest-of-wong\pytest-4\test_fail10)
+start_pytest/test_module.py::test_fail2
+start_pytest/test_module.py::test_fail1 (C:\Users\wong\AppData\Local\Temp\pytest-of-wong\pytest-5\test_fail10)
+start_pytest/test_module.py::test_fail2
+start_pytest/test_module.py::test_fail1 (C:\Users\wong\AppData\Local\Temp\pytest-of-wong\pytest-6\test_fail10)
+start_pytest/test_module.py::test_fail2
+start_pytest/test_module.py::test_fail1 (C:\Users\wong\AppData\Local\Temp\pytest-of-wong\pytest-7\test_fail10)
+start_pytest/test_module.py::test_fail2
+c/test_module.py::test_call_fails
+c/test_module.py::test_fail2
+v2ex_api_test.py::TestV2exApi::test_node2[python]
+v2ex_api_test.py::TestV2exApi::test_node2[java]
+v2ex_api_test.py::TestV2exApi::test_eval[3+1-7-True]
+v2ex_api_test.py::TestV2exApi::test_eval[3+1-4-gaga]
+v2ex_api_test.py::TestV2exApi::test_eval[2+4-6-True]
+v2ex_api_test.py::TestV2exApi::test_eval[6*9-54-True]
