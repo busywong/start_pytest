@@ -5,6 +5,8 @@
 @software: PyCharm Community Edition
 @file: test_sample.py
 @time: 2019/4/10 14:46
+
+conftest.py fixture 增加命令选项
 """
 import pytest
 # content of test_sample.py
